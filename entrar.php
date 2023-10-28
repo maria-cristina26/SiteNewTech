@@ -12,10 +12,10 @@
             let senha = document.forms["formCadastro"]["senha"].value;
 
             if (email == ""){
-                alert("Preencha o nome!");
+                alert("Preencha o e-mail!");
             }
             else if(senha == ""){
-                alert("Preencha o e-mail!")
+                alert("Preencha a senha!")
             }
             else{
                 alert("Enviado");
